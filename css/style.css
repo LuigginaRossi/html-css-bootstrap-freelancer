@@ -1,0 +1,46 @@
+:root{
+    --bs-link-color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+h3 {
+    font-size: 1rem ;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: .8rem;
+}
+
+
+/* ****** NAV********* */
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav [class^=col-]{
+    padding-top: 1rem;
+}
+
+
+/* ************** */
+
+.fa-facebook-f{
+    padding: .5rem .7rem;
+}
+
+.fa-google-plus-g{
+    padding: .5rem .4rem;
+}

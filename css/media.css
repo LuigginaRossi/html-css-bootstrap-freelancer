@@ -1,0 +1,20 @@
+/* sm */
+@media screen and (min-width: 576px) {
+    .container {
+      
+    }
+  }
+ 
+  /* md */
+  @media screen and (min-width: 768px) {
+    .container {
+      
+    }
+  }
+  
+  /* lg */
+  @media screen and (min-width: 992px){
+    .container {
+      
+    }
+  }
