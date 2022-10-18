@@ -1,11 +1,30 @@
 :root{
     --bs-link-color: white;
+    --bs-green: #1abc9c;
+    --bs-success: #1abc9c;
+    --bs-success-rgb: 26, 188, 156;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
+.btn-success{
+    /* button */
+    --bs-btn-bg: #1abc9c;
+    --bs-btn-border-color: #1abc9c;
+    --bs-btn-hover-bg: #20e4bd;
+    --bs-btn-hover-border-color: #20e4bd;
+    --bs-btn-active-bg: #419e8c;
+    --bs-btn-active-border-color: #419e8c;
+    --bs-btn-disabled-bg: #1abc9c;
+    --bs-btn-disabled-border-color: #1abc9c;
+
+}
+
+.bg-blu{
+    background-color: #3a546d ;
+}
 section{
     padding: 3rem 0;
     text-align: center;
@@ -42,14 +61,11 @@ nav [class^=col-]{
 
 
 /* ************** */
-
-.fa-facebook-f{
-    padding: .5rem .7rem;
+.social button{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
 }
 
-.fa-google-plus-g{
-    padding: .5rem .4rem;
-}
 /* *********** */
 .form-control{
     border-left: 0;
