@@ -5,27 +5,11 @@
     --bs-success-rgb: 26, 188, 156;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.btn-success{
-    /* button */
-    --bs-btn-bg: #1abc9c;
-    --bs-btn-border-color: #1abc9c;
-    --bs-btn-hover-bg: #20e4bd;
-    --bs-btn-hover-border-color: #20e4bd;
-    --bs-btn-active-bg: #419e8c;
-    --bs-btn-active-border-color: #419e8c;
-    --bs-btn-disabled-bg: #1abc9c;
-    --bs-btn-disabled-border-color: #1abc9c;
-
-}
-
-.bg-blu{
-    background-color: #3a546d ;
-}
-section{
+section {
     padding: 3rem 0;
     text-align: center;
 }
@@ -39,11 +23,18 @@ h4 {
     font-size: .8rem;
 }
 
-img{
+img {
     width: 100%;
     display: block;
-    border-radius: 10Dpx;
 }
+
+
+/**********UTILITIES*************/
+
+.bg-blu{
+    background-color: #3a546d ;
+}
+
 
 /* ****** NAV********* */
 
@@ -59,17 +50,30 @@ nav [class^=col-]{
     padding-top: 1rem;
 }
 
-
-/* ************** */
-.social button{
-    width: 2.5rem;
-    aspect-ratio: 1/1;
-}
-
-/* *********** */
+/* *****CONTACT****** */
 .form-control{
     border-left: 0;
     border-right: 0;
     border-top: 0;
     border-radius: 0;
 }
+
+.btn-success{
+    /* button */
+    --bs-btn-bg: #1abc9c;
+    --bs-btn-border-color: #1abc9c;
+    --bs-btn-hover-bg: #20e4bd;
+    --bs-btn-hover-border-color: #20e4bd;
+    --bs-btn-active-bg: #419e8c;
+    --bs-btn-active-border-color: #419e8c;
+    --bs-btn-disabled-bg: #1abc9c;
+    --bs-btn-disabled-border-color: #1abc9c;
+}
+
+/* *******INFO******* */
+.social button{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+}
+
+
