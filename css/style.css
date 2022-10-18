@@ -8,6 +8,7 @@ body{
 
 section{
     padding: 3rem 0;
+    text-align: center;
 }
 
 h3 {
@@ -22,7 +23,7 @@ h4 {
 img{
     width: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: 10Dpx;
 }
 
 /* ****** NAV********* */
@@ -48,4 +49,11 @@ nav [class^=col-]{
 
 .fa-google-plus-g{
     padding: .5rem .4rem;
+}
+/* *********** */
+.form-control{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
 }
